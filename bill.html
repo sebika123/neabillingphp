@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Bill</title>
+</head>
+<body>
+  <h2>Add Bill</h2>
+  <form action="bill_insert.php" method="POST">
+    <label>BID:</label>
+    <input type="date" name="BID" required><br><br>
+    <label>BDate:</label>
+    <input type="date" name="BDate" required><br><br>
+    <label>BYear:</label>
+    <input type="number" name="BYear" required><br><br>
+    <label>BMonth:</label>
+    <input type="number" name="BMonth" required><br><br>
+    <label>CUSID:</label>
+    <input type="number" name="CUSID" required><br><br>
+    <label>Current Reading:</label>
+    <input type="number" name="Current_Reading" required><br><br>
+    <label>previous Reading:</label>
+    <input type="number" name="previous_Reading" required><br><br>
+    <label>bill_amount:</label>
+    <input type="number" name="bill_amount" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
